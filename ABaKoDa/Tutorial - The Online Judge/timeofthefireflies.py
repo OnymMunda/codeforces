@@ -1,0 +1,6 @@
+x = int(input())
+y = int(input())
+n = int(input())
+
+print (x + (y * (n-1)))
+

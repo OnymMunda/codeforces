@@ -1,4 +1,7 @@
-string = input().split("+")
+s = input()
 
-for i in range(len(string),-1, -1):
-    string[i]
+numbers = s.split("+")      
+numbers.sort()              
+
+result = "+".join(numbers)  
+print(result)
